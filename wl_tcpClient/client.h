@@ -4,7 +4,7 @@
 #include <QDialog>
 #include <QNetworkInterface>
 #include <QtNetwork>
-
+//test 2020-04-30
 
 namespace Ui {
     class client;
