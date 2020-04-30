@@ -5,6 +5,7 @@
 #include <QNetworkInterface>
 #include <QtNetwork>
 //test 2020-04-30
+//test2 2020-04-30 17:50
 
 namespace Ui {
     class client;
@@ -29,8 +30,8 @@ private:
 private slots:
     void clientSendMessage();
     void updateStatus();
-    void readMessage();  //½ÓÊÕÊı¾İ
-    void displayError(QAbstractSocket::SocketError);  //ÏÔÊ¾¿Í»§¶Ë´íÎó
+    void readMessage();  //æ¥æ”¶æ•°æ®
+    void displayError(QAbstractSocket::SocketError);  //æ˜¾ç¤ºå®¢æˆ·ç«¯é”™è¯¯
     void on_connectpushButton_clicked();
     void on_cCleanpushButton_clicked();
     void updateClientStatusConnect();
